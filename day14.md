@@ -1,9 +1,9 @@
 # Day 14
 
-Je veux annuler un commit.
+I want to cancel a commit.
 
-     git revert SHA1
+git revert SHA1
 
-Va créer un commit avec l'exacte inverse du commit passé en paramètre. Vous pouvez aussi lui donner une suite de commits à annuler.
+Will create a commit with the exact opposite of the commit passed as a parameter. You can also give him a series of commits to cancel.
 
-    git help revert
+git help revert

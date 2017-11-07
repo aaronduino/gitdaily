@@ -1,10 +1,10 @@
 # Day 30
 
-Je veux que mon bash affiche dans quelle branche je suis. Dans ~/.bashrc,
-j'ajoute en fin de fichier :
+I want my bash to show in which branch I am. In ~ / .bashrc,
+I add at the end of the file:
 
-    PS1='\w$(__git_ps1)\$ '
+PS1 = '\ w $ (__ git_ps1) \ $'
 
-\w indique le répertoire courant,
-$(_\_git\_ps1) correspond à votre branche
-et \$ affiche # si vous êtes super-utilisateur.
+\ w indicates the current directory,
+$ (_ \ _ git \ _ps1) is your branch
+and \ $ prints # if you are superuser.

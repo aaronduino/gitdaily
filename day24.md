@@ -1,9 +1,9 @@
 # Day 24
 
-Je veux rechercher une modification qui ajoute ou supprime "plop"
+I want to search for a change that adds or removes "plop"
 
-    git log -S "plop"
+git log -S "plop"
 
-Vous retournera toutes les révisions ou l'on trouve "plop". A utiliser avec l'option -p en général.
+You will return any revisions where you find "plop". Use with the -p option in general.
 
-    git help log
+git help log

@@ -1,9 +1,9 @@
 # Day 25
 
-Je veux préparer mes patchs pour les envoyer par email.
+I want to prepare my patches to send them by email.
 
-    git format-patch SHA1
+git format-patch SHA1
 
-Écrira le patch dans un fichier, pour l'envoyer par email par exemple, ou simplement le partager.
+Write the patch into a file, send it by email for example, or simply share it.
 
-    git help format-patch
+git help format-patch

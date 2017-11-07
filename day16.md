@@ -1,10 +1,10 @@
 # Day 16
 
-Je veux annuler mon dernier commit.
+I want to cancel my last commit.
 
-    git reset --soft HEAD^
+git reset --soft HEAD ^
 
-Votre dernier commit sera annulé et vos modifications seront mise dans
-votre zone de staging. Pour info c'est ce que fait git commit --amend.
+Your last commit will be canceled and your changes will be put in
+your staging area. For info that's what git commit --amend does.
 
-    git help reset
+git help reset

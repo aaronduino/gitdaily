@@ -1,9 +1,9 @@
 # Day 19
 
-Je veux récupérer un commit qui est sur une autre branche.
+I want to recover a commit that is on another branch.
 
-    git cherry-pick SHA1
+git cherry-pick SHA1
 
-Va récupérer le commit SHA1 et l'appliquer sur la branche courante. Attention, le commit parent n'étant pas le même, le SHA1 va changer.
+Will get the SHA1 commit and apply it on the current branch. Be careful, the parent commit is not the same, the SHA1 will change.
 
-    git help cherry-pick
+git help cherry-pick

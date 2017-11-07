@@ -1,16 +1,16 @@
 # Day 31
 
-Je veux des alias pour mes commandes usuelles. 
-Dans ~/.gitconfig, je complète :
+I want aliases for my usual orders.
+In ~ / .gitconfig, I complete:
 
-    [alias]
-      st = status
-      a = add
-      ci = commit
-      br = branch
-      co = checkout
-      cpk = cherry-pick
-      d = diff
+[alias]
+st = status
+a = add
+ci = commit
+br = branch
+co = checkout
+cpk = cherry-pick
+d = diff
 
-Ces alias seront immédiatement disponibles, 
-sans avoir à recharger quoi que ce soit.
+These aliases will be immediately available,
+without having to recharge anything.

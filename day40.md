@@ -1,19 +1,19 @@
 # Day 40
 
-Vous avez des conflits récurrents lors des merge et vous voulez les corriger une bonne fois pour toute.
+You have recurring conflicts during the merge and you want to correct them once and for all.
 
-La première chose à faire est de configurer la variable *rerere.enabled*.
+The first thing to do is to configure the variable * rerere.enabled *.
 
-    git config --global rerere.enabled 1
+git config --global rerere.enabled 1
 
-Ensuite ? Vous laissez faire git. Il va automatiquement enregistrer les conflits et leurs résolutions pour refaire la même chose automatiquement.
+Then? You let go git. It will automatically record conflicts and their resolutions to repeat the same thing automatically.
 
-Aux prochains git pull --rebase ou aux git merge, plus besoin de réappliquer le même correctif.
+The next git pull --rebase or git merge, no need to reapply the same fix.
 
-Si vous avez enregistré une mauvaise résolution, vous pouvez utilisez git rerere forget.
+If you have recorded a bad resolution, you can use git rerere forget.
 
-Et pourquoi rerere ? C'est l'abbréviation de Reuse recorded resolution.
+And why rerere? This is the abbreviation of Reuse recorded resolution.
 
-    git help rerere
+git help rerere
 
-    http://progit.org/2010/03/08/rerere.html
+http://progit.org/2010/03/08/rerere.html

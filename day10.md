@@ -1,9 +1,9 @@
 # Day 10
 
-Je veux savoir qui a commité sur un projet.
+I want to know who has committed on a project.
 
-    git shortlog -n -s
+git shortlog -n -s
 
-Vous renverra la liste des auteurs trié par leur nombre de commits.
+You will return the list of authors sorted by their number of commits.
 
-    git help shortlog
+git help shortlog

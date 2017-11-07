@@ -1,9 +1,9 @@
 # Day 18
 
-Je veux voir les commits qui sont dans une branche et pas dans une autre.
+I want to see the commits that are in one branch and not in another.
 
-    git log origin/master --not origin/develop
+git log origin / master --not origin / develop
 
-Vous listera les commits qui sont dans la branche master mais pas dans develop.
+You will list the commits that are in the master branch but not in develop.
 
-    git help log
+git help log

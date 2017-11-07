@@ -1,12 +1,11 @@
 # Day 2
 
-Je veux vérifier que mes modifications n'ajoute pas d'espaces en fin de
-ligne ou un espace avant une tabulation.
+I want to check that my changes do not add spaces at the end of the line or space before a tab.
 
     git diff --check
 
-Affiche chaque erreur détecté et un code retour en erreur.
+Displays each detected error along with an error return code.
 
-Plus d'infos ?
+More information:
 
     git help diff

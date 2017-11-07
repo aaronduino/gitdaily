@@ -1,9 +1,9 @@
 # Day 21
 
-Je veux voir les messages de commit avec le diff.
+I want to see the commit messages with the diff.
 
-    git log -p
+git log -p
 
-Va vous afficher une vue log classique mais avec le diff juste en dessous.
+Will show you a classic log view but with the diff just below.
 
-    git help log
+git help log

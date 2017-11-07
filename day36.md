@@ -1,11 +1,11 @@
 # Day 36
 
-Je veux n'afficher que les commits d'une personne :
+I want to display only the commits of a person:
 
-    git log --author="John Smith"
+git log --author = "John Smith"
 
-Je peux aussi faire un alias pour ne montrer que mes commits :
+I can also make an alias to show only my commits:
 
-    mylog = !git log --author=`git config --get user.email`
+mylog =! git log --author = `git config --get user.email`
 
-Le point d'exclamation demande une exécution directe par bash.
+The exclamation point requires direct execution by bash.

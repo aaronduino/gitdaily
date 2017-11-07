@@ -1,10 +1,10 @@
 # Day 7
 
-Je veux mettre de coté des modifications de mon répertoire de travail
-courant.
+I want to set aside changes to my working directory
+current.
 
-    git stash save "Ce que j'ai fait"
+git stash save "What I did"
 
-Toutes les modifications seront mise de coté avec le nom "Ce que j'ai fait".
+All changes will be set aside with the name "What I did".
 
-    git help stash
+git help stash

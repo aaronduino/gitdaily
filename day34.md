@@ -1,17 +1,17 @@
 # Day 34
 
-Quelques flags de la commande log, pour agrémenter vos alias :
+Some flags of the log command, to decorate your aliases:
 
-    --date=relative
-      pour des dates à la réseau social ("n hours ago")
-    --name-only
-      pour afficher le nom des fichiers modifiés
-    --no-merges
-      est plutôt explicite
-    --oneline
-      n'affichera que le SH1 abrégé et le message de commit
-    --patch
-      ou -p pour afficher le patch du commit
+--date = Relative
+for dates to the social network ("n hours ago")
+--name-only
+to show the name of changed files
+--no-merges
+is rather explicit
+--oneline
+will only show the abbreviated SH1 and the commit message
+--patch
+or -p to display the commit patch
 
-N'hésitez pas à m'envoyer vos alias, en particulier git log,
-quelques uns seront de la partie aux prochains épisodes =)
+Do not hesitate to send me your aliases, in particular git log,
+some will be part of the next episodes =)

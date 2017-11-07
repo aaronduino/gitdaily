@@ -1,10 +1,10 @@
 # Day 6
 
-Je veux récupérer le contenu d'un fichier a une révision précise.
+I want to recover the contents of a file to a specific revision.
 
-    git show SHA1:path/to/file
+git show SHA1: path / to / file
 
-Vous renverra le contenu du fichier path/to/file dans la révision SHA1.
-Pratique lors de la suppression involontaire d'un fichier :).
+You will return the contents of the path / to / file file in the SHA1 revision.
+Convenient when unintentionally deleting a file :).
 
-    git help show
+git help show

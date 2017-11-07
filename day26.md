@@ -1,9 +1,9 @@
 # Day 26
 
-Je veux retirer un fichier pour le prochain commit.
+I want to remove a file for the next commit.
 
-    git rm --cached path/to/file
+git rm --cached path / to / file
 
-Marquera le fichier pour suppression pour le prochain commit mais ne le supprimera pas du système de fichier. Pratique si vous avez fait une petite bêtise :).
+Mark the file for deletion for the next commit but will not delete it from the file system. Practice if you made a little mistake :).
 
-    git help rm
+git help rm

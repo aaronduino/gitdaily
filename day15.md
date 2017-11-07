@@ -1,9 +1,9 @@
 # Day 15
 
-Je veux savoir sur quelles branches se trouve un commit.
+I want to know on which branches is a commit.
 
-    git branch --contains SHA1
+git branch --contains SHA1
 
-Vous listera les branches en question.
+You will list the branches in question.
 
-    git help branch
+git help branch

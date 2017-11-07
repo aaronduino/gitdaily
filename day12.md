@@ -1,10 +1,10 @@
 # Day 12
 
-Je veux revenir à un commit en oubliant tout ce qui est en cours:
+I want to return to a commit forgetting everything that is in progress:
 
-    git reset --hard SHA1
+git reset --hard SHA1
 
-Vous mettra dans l'état du commit en paramètre. Tout ce que vous avez pu modifier ou commiter est perdu (enfin pas tout à fait).
-Si vous avez déjà pushé les commits en question c'est une mauvaise pratique.
+You will put in the commit state as a parameter. Anything you could change or commit is lost (well not quite).
+If you have already pushed the commits in question it is bad practice.
 
-    git help reset
+git help reset

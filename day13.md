@@ -1,10 +1,10 @@
 # Day 13
 
-Je veux initialiser un dépôt git pour ma config système.
+I want to initialize a git repository for my system config.
 
-    git init /etc
+git init / etc
 
-Initialisera un dépôt git dans /etc. Alors pour votre bout de code
-qui-ne-sera-pas-réutilisé-c'est-sur, git init && git add . && git commit.
+Initialize a git repository in / etc. So for your piece of code
+who-will-not-be-reused-that is, git init && git add. && git commit.
 
-    git help init
+git help init

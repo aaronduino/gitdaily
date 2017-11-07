@@ -1,13 +1,9 @@
 # Day 1
 
-J'ai fait plusieurs modifications dans un fichier et je ne veux en
-commiter qu'une partie:
+I made several changes in a file, and I only want to stage some of them:
 
     git add -p
 
-Pour chaque fichiers modifié dans votre working tree, il vous propose de
-rajouter chaque hunk dans la zone de staging.
-
-Plus d'infos ?
+For each modified file in your working tree, it lets the user choose whats parts to stage.
 
     git help add

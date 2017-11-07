@@ -1,8 +1,8 @@
 # Day 11
 
-Je veux supprimer les branches distantes qui n'existent plus.
+I want to delete remote branches that no longer exist.
 
-    git fetch -p origin
+git fetch -p origin
 
-Récupèrera les objets de origin et supprimera les branches distantes qui
-n'existent plus. Vous aurez un 'git branch -a' correct.
+Retrieve the origin objects and delete the remote branches that
+no longer exist. You will have a correct 'git branch -a'.

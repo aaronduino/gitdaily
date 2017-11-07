@@ -1,17 +1,17 @@
 # Day 35
 
-Il est possible de formater les logs à volonté :
+It is possible to format the logs at will:
 
-    git log --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %Cblue<%an>'
+git log --pretty = format: '% Cred% h% Crescent% s% Cgreen (% cr)% Cblue <% an>'
 
-Avec :
+With:
 
-    %C pour changer la couleur
-    %h pour le SHA1 abrégé
-    %s pour le sujet du commit
-    %cr pour la date relative
-    %an pour le nom de l'auteur
+% C to change the color
+% h for abbreviated SHA1
+% s for the subject of commit
+% cr for the relative date
+% an for the author's name
 
-Plus d'informations sur pretty format : 
+More information about pretty format:
 
-    man git show
+man git show

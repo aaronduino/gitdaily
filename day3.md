@@ -1,17 +1,17 @@
 # Day 3
 
-Je veux voir ce que je vais commiter :
+I want to see what I will commit:
 
     git diff --cached
 
-Vous renvoie seulement les différences de votre zone de staging.
-Super combo avec la commande de hier :
+Only returns the differences in your staging area.
+
+Super-combo with yesterday's tip:
 
     git diff --cached --check
 
-Vous renverra les erreurs d'espaces en fin de ligne de votre zone de
-staging.
+Returns errors of spaces at the end of the line of your zone of staging.
 
-Plus d'infos ?
+More information:
 
     git help diff

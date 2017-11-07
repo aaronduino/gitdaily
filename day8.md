@@ -1,14 +1,14 @@
 # Day 8
 
-Je veux ré-appliquer les changements que j'ai mis de coté.
+I want to re-apply the changes I put aside.
 
-    git stash apply
+git stash apply
 
-Ré-appliquera le dernier changement mis de coté dans votre copie de
-travail.
+Re-apply the last change set aside in your copy of
+job.
 
-    git stash pop
+git stash pop
 
-Fait la même chose que apply mais supprime ce changement de votre bas de laine.
+Do the same as apply but remove this change from your woolen stocking.
 
-    git help stash
+git help stash

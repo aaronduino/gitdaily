@@ -1,9 +1,9 @@
 # Day 23
 
-Je veux chercher "plop" dans mon dépôt git.
+I want to search "plop" in my deposit git.
 
-    git grep "plop"
+git grep "plop"
 
-Vous renverra toutes les lignes qui ont "plop".
+You will return all lines that have "plop".
 
-    git help grep
+git help grep

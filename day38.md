@@ -1,20 +1,20 @@
 # Day 38
 
-Je veux créer un dépôt git à partir d'un autre dépôt pour garder une partie de l'historique.
+I want to create a git repository from another repository to keep some of the history.
 
-Par exemple pour créer un dépot git du sous répertoire lib/captcha.
+For example to create a git repository of the lib / captcha subdirectory.
 
-    git filter-branch --subdirectory-filter lib/captcha -- --all
+git filter-branch --subdirectory-filter / captcha - --all
 
-filter-branch va remplacer votre dépôt git actuel en ne gardant que les fichiers et les commits correspondant à lib/captcha.
-lib/captcha deviendra donc le répertoire courant.
+filter-branch will replace your current git repository by keeping only the files and commits corresponding to lib / captcha.
+lib / captcha will become the current directory.
 
-Vous pouvez également supprimer un fichier de votre historique git.
+You can also delete a file from your git history.
 
-    git filter-branch --index-filter 'git rm --cached --ignore-unmatch config/prod.yml' HEAD
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch config / prod.yml' HEAD
 
-Réécrira tous les commits pour que le fichier de config/prod.yml n'y figure plus.
+Rewrite all commits so that the config / prod.yml file is not there anymore.
 
-    git help filter-branch
+git help filter-branch
 
-Pour tester ces commandes, utiliser un nouveau clone de votre projet préféré. Ou attendez le dernier Git "Hardcore" Daily.
+To test these commands, use a new clone of your favorite project. Or wait for the latest Git "Hardcore" Daily.

@@ -1,9 +1,9 @@
 # Day 22
 
-Je veux visualiser les changements d'une manière lisible pour le texte.
+I want to visualize the changes in a readable way for the text.
 
-    git diff --color-words
+git diff --color-words
 
-Va afficher les différences pour chaque mot plutôt que par ligne.
+Will display the differences for each word rather than per line.
 
-    git help diff
+git help diff

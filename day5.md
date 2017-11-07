@@ -1,10 +1,10 @@
 # Day 5
 
-Je veux connaitre les commits que je n'ai pas encore pushé.
+I want to know the commits I have not pushed yet.
 
-    git log origin/master..HEAD
+git log origin / master..HEAD
 
-Vous listera uniquement les commits qui n'ont pas été pushé sur
-origin/master.
+You will only list the commits that were not pushed on
+origin / master.
 
-    git help log
+git help log

@@ -1,9 +1,9 @@
 # Day 29
 
-Je veux optimiser un dépôt git un peu gros.
+I want to optimize a deposit git a little big.
 
-    git gc
+git gc
 
-Supprimera tous les objets perdu et compressera nombre de révisions. Si votre dépôt est un peu gros, git lance gc automatiquement.
+Will delete all lost objects and compress number of revisions. If your deposit is a bit big, git launches gc automatically.
 
-    git help gc
+git help gc
