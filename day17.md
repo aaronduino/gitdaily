@@ -2,8 +2,8 @@
 
 I want to add a great 'chuck' command that answers 'norris' (ahah).
 
-$ cat> / usr / local / bin / git-chuck <<< EOF
-#! / Bin / sh
+$ cat > /usr/local/bin/git-chuck <<< EOF
+#!/bin/sh
 echo 'norris'
 EOF
 $ chmod + x / usr / local / bin / git-chuck

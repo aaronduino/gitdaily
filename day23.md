@@ -2,8 +2,8 @@
 
 I want to search "plop" in my deposit git.
 
-git grep "plop"
+    git grep "plop"
 
 You will return all lines that have "plop".
 
-git help grep
+    git help grep

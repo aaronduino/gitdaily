@@ -2,7 +2,7 @@
 
 Some flags of the log command, to decorate your aliases:
 
---date = Relative
+--date=relative
 for dates to the social network ("n hours ago")
 --name-only
 to show the name of changed files

@@ -5,12 +5,10 @@ commit message.
 
     git commit --amend
 
-Modifies the last commit message. Can also add the
-changes to your staging area.
+Modifies the last commit message. Can also add the changes to your staging area.
 
     git add myfile.erl && git commit --amend
 
-Add the modification of myfile.erl in the previous commit.
+Adds the modification of myfile.erl to the previous commit.
 
-This command rewrites the history git, you should NOT do it
-if you have already pushed.
+This command rewrites the git history; DO NOT do it if you have already pushed.
